@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<main>
+<cont1:contact xmlns:cont1="www.tutorialpoints.com.np/page" >
+<cont1:name>Tanmay Patil</cont1:name>
+<cont1:company>Tutorial Point</cont1:company>
+<cont1:phone>9825376245</cont1:phone>
+</cont1:contact>
+<cont2:contact xmlns:cont2="www.aabhushandhakal.com.np/contact" >
+<cont2:name>Tanmay Patil</cont2:name>
+<cont2:company>Tutorial Point</cont2:company>
+<cont2:phone>9825376245</cont2:phone>
+</cont2:contact>  
+
+</main>

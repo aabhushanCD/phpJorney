@@ -1,0 +1,15 @@
+<?xml version="1.0"    encoding="UTF-8"?>
+<main>
+
+      <div name="div1">
+          <Header>This is the header tag</Header> 
+          <Message>This is the message section</Message>
+          <Fotter>This is the footer section</Fotter>
+      </div>
+      <div name="div2">
+          <Header>This is the header tag</Header> 
+          <Message>This is the message section</Message>
+          <Fotter>This is the footer section</Fotter>
+      </div>
+
+</main>
