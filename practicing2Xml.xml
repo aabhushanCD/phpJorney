@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<current_observaion>
+<credit>NOAA's National Weather Sercives</credit>
+<credit_URL> http://weather.gov/</credit_URL>
+<image>
+<url>http://weather.gov/images/xml_logo.gif</url>
+<title>NOAA's National Weather Service</title>  
+<link>http://weather.gov</link>
+
+</image>       
+
+<location>New York/John F.Kennedy intl Airport, NY</location>
+<station_id>KJFK</station_id>
+<latitude>40.66</latitude>
+<longitude>73.78</longitude>
+<obsercation_time_rfc833>Mon, 11 Feb 2008 06:51:00 -0500 EST</obsercation_time_rfc833>
+<weather>A Few Clouds</weather>
+<temp_f>11</temp_f>
+<temp_c>-12</temp_c>
+<relative_humidity>36</relative_humidity>
+<wind_dir>West</wind_dir>
+<wind_degrees>280</wind_degrees>
+<wind_mph>18.4</wind_mph>
+<pressure_mb>1023.6</pressure_mb>
+<pressure_in>30.24</pressure_in>
+
+</current_observaion>
