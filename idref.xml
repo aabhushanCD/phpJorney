@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE user[
+<!ELEMENT name (FirstName, LastName,address,contact,email) >
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA) >
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST address id CDATA #REQUIRED>
+<!ATTLIST address user_id IDREF #REQUIRED>
+
+
+]>
+
+<user>
+  <name>
+    <FirstName>Aabhushan</FirstName>
+    <LastName>Dhakal</LastName>
+  
+  <address id="1" user_id="user2">Dharan 16</address>  
+  <contact>9825376245</contact>
+  <email>dammardhakal426@gmail.com</email>
+</name>
+  <name>
+    <FirstName>Aabhushan</FirstName>
+    <LastName>Dhakal</LastName>
+  
+  <address id="user2" user_id="user5">Dharan 16</address>  
+  <contact>9825376245</contact>
+  <email>dammardhakal426@gmail.com</email>
+</name>
+</user>

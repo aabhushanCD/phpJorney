@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE empinfo [
+<!ELEMENT empinfo (employee)> <!-- empinfo contains employee elements -->
+<!ELEMENT employee (designation)> <!-- employee contains a designation element -->
+<!ELEMENT designation (#PCDATA)> <!-- designation contains character data -->
+<!ATTLIST employee id CDATA #REQUIRED>
+<!ATTLIST designation discipline CDATA "web_developer"> <!-- designation has a discipline attribute with a default value of "web_developer" -->
+]>
+<empinfo>
+    <employee id="1">
+        <designation>Senior Engineer</designation> <!-- No discipline attribute, uses default "web_developer" -->
+    </employee>
+    <employee id="2">
+        <designation discipline="DBA">Senior Engineer</designation> <!-- Explicitly specified discipline attribute "DBA" -->
+    </employee>
+</empinfo>
