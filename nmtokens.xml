@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ELEMENT note (user)>
+<!ELEMENT user (Name, contact, address)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST Name fullname NMTOKENS "Aabhushan Dhakal is from Dharan">
+
+]>
+
+<note>
+  <user>
+    <Name >Hello Aabhushan</Name>
+<contact>9825376245</contact>
+<address>Dharan</address>
+  </user>
+</note>
